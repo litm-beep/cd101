@@ -13,5 +13,5 @@ mean_age = 0
 print('\nInfo about composers:')
 for i in range(num):
     mean_age += composers[i][4]
-    print(f'First Name: {composers[i][0]},\tLast Name: {composers[i][1]},\tAge: {composers[i][4]}')
+    print(f'First Name: {composers[i][0]},\tLast Name: {composers[i][1]},\tAge: {composers[i][4]}, {i}, {num}')
 print(f'\nMean age of composers is {mean_age/num}')
